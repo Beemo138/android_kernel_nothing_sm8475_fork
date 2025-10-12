@@ -1,7 +1,3 @@
-[submodule "KernelSU-Next"]
-	path = KernelSU-Next
-	url = https://github.com/KernelSU-Next/KernelSU-Next
-	branch = next
 [submodule "mkbootimg"]
 	path = mkbootimg
 	url = https://android.googlesource.com/platform/system/tools/mkbootimg
@@ -12,3 +8,6 @@
 [submodule "kernel_patches"]
 	path = kernel_patches
 	url = https://github.com/WildKernels/kernel_patches
+[submodule "KernelSU"]
+	path = KernelSU
+	url = https://github.com/SukiSU-Ultra/SukiSU-Ultra
