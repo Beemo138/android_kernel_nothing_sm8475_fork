@@ -29,7 +29,7 @@ if [[ "${1}" == "skip" ]] ; then
 else
 	echo "Compiling kernel"
 	cp defconfig .config
-	make -j${THREADS} "$@" || exit 1
+	echo "2" | make -j${THREADS} "$@" || exit 1
 fi
 
 echo "Building new ramdisk"
